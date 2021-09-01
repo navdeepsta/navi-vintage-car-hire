@@ -1,3 +1,14 @@
+/* Navigation Bar */
+.logo {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
 /* To give equal height for images in a card */
 .card-img-top {
     width: 100%;
@@ -5,8 +16,35 @@
     object-fit: cover;
 }
 
-/* Form label */
+/* Border radius around images*/
+.card {
+    border: none;
+}
+
+.card img {
+    border-radius: 10%;
+}
+
+/* Form */
 form label {
     font-size: 18px;
     font-weight: bold;
+   
 }
+
+form  {
+    margin: 0 10%;
+}
+
+iFrame {
+    width: 400px;
+    height: 400px;
+}
+
+/* Setting a map size for smaller screens*/
+@media screen and (max-width: 400px) {
+    iFrame {
+        width: 200px;
+        height: 200px;
+    }
+  }
