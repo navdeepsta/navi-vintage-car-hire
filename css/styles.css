@@ -1,0 +1,6 @@
+/* To give equal height for images in a card */
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
