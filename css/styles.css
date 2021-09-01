@@ -4,3 +4,9 @@
     height: 30vw;
     object-fit: cover;
 }
+
+/* Form label */
+form label {
+    font-size: 18px;
+    font-weight: bold;
+}

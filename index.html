@@ -40,48 +40,45 @@
 
             <!-- Main Heading -->
             <div class="container">
-                <h1 class="fluid">Vintage Cars for hire</h1>
+                <h1 class="text-center">Vintage Cars for hire</h1>
             </div> 
             <!--End of Main Heading-->
         </header>          
     
 
     <!-- Cars Section -->
-        <section class="container" id="cars">
+        <section class="container mt-5" id="cars">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="images/Car06.jfif" class="card-img-top" alt="...">
+                        <img src="images/Car06.jfif" class="card-img-top" alt="Mercedez">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean commodo ligula eget dolor.  </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/Car03.jfif" class="card-img-top" alt="...">
+                        <img src="images/Car03.jfif" class="card-img-top" alt="BMW">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean commodo ligula eget dolor. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/Car04.jfif" class="card-img-top" alt="...">
+                        <img src="images/Car04.jfif" class="card-img-top" alt="Ford">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean commodo ligula eget dolor.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/Car05.jfif" class="card-img-top" alt="...">
+                        <img src="images/Car05.jfif" class="card-img-top" alt="Mustang">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean commodo ligula eget dolor.</p>
                         </div>
                     </div>
                 </div>
@@ -91,14 +88,43 @@
     <!-- End of Car Section -->
 
     <!-- Enquiries Section -->
-        <section class="container" id="enquiries">
-            Enquires
+        <section class="container mt-5" id="enquiries">
+            <form class="bg-light">
+                <div class="mb-3">
+                    <label>Enquire about a car</label>
+                </div>
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" id="fullName" class="form-control" aria-describedby="passwordHelpBlock">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="chooseCar" class="form-label">Choose a car</label>
+                    <select class="form-select" id="chooseCar" aria-label="Default select example">
+                        <option value="mercedez">Mercedez</option>
+                        <option value="bmw">BMW</option>
+                        <option value="mustang">Mustang</option>
+                        <option value="ford">Ford</option>
+                      </select>
+                </div >
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </section>
     <!-- End of Enquiries Section -->
 
     <!-- Contact Section -->
-        <section class="container" id="contact">
-            Contact
+        <section class="container mt-5" id="contact">
+            <label>Contact</label>
+             
         </section>
     <!-- End of Contact Section -->
 
